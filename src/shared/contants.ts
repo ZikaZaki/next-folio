@@ -36,6 +36,11 @@ export const socialLinks = [
     link: "https://github.com/ZikaZaki",
   },
   {
+    title: "LinkedIn",
+    icon: "/linkedin.png",
+    link: "https://www.linkedin.com/in/zikazaki/",
+  },
+  {
     title: "Twitter",
     icon: "/twitter.svg",
     link: "https://twitter.com/ZakariyaKhamisi",
@@ -43,21 +48,21 @@ export const socialLinks = [
   // {
   //   title: "Facebook",
   //   icon: "/facebook.png",
-  //   link: "https://www.facebook.com/napthedev",
+  //   link: "https://www.facebook.com/zikazaki",
   // },
-  {
-    title: "Discord",
-    icon: "/discord.png",
-    link: "https://discord.com/users/877882975855992852",
-  },
+  // {
+  //   title: "Discord",
+  //   icon: "/discord.png",
+  //   link: "https://discord.com/users/zikazaki",
+  // },
   {
     title: "Codepen",
     icon: "/codepen.png",
     link: "https://codepen.io/zikazaki",
   },
   {
-    title: "My blog",
-    icon: "/blog.png",
-    link: "https://blog.napthedev.com",
+    title: "Dev",
+    icon: "/dev.png",
+    link: "https://dev.to/zikazaki",
   },
 ];

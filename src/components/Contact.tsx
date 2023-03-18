@@ -24,7 +24,7 @@ const Contact: FC = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="John Doe"
+                placeholder="ZikaZaki"
                 required
                 minLength={3}
               />
@@ -41,7 +41,7 @@ const Contact: FC = () => {
                 type="text"
                 id="subject"
                 name="subject"
-                placeholder="I want to talk to you"
+                placeholder="I want like to hire you"
                 required
               />
               <button className="mt-2 py-2 text-white rounded transition duration-300 flex justify-center items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]">
@@ -59,11 +59,15 @@ const Contact: FC = () => {
                 rel="noopener noreferrer"
                 className="flex gap-2 items-center hover:bg-slate-900 p-2 transition duration-300"
               >
-                <img 
-                  className="w-[30px] h-[30px] rounded-full" 
-                  src={item.icon} 
-                  alt="" 
-                />
+                <div
+                 className={`w-[32px] h-[32px] ${ item.title.toLowerCase() === "linkedin" ? " bg-white rounded-md" : "rounded-full" }`}
+                >
+                  <img 
+                    className="w-full h-full object-cover"
+                    src={item.icon} 
+                    alt="" 
+                  />
+                </div>
                 <h1>{item.title}</h1>
               </a>
             ))}

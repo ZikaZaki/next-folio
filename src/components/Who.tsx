@@ -24,7 +24,7 @@ const Who: FC = () => {
           coding, I also like{" "}
           <a
             className="underline underline-offset-2"
-            href="https://blog.napthedev.com/"
+            href="https://dev.to/zikazaki/is-programming-art--1n5e"
             target="_blank"
             rel="noopener noreferrer"
           >

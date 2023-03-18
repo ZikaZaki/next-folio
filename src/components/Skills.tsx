@@ -6,6 +6,7 @@ interface SkillsProps {
 }
 
 const Skills: FC<SkillsProps> = ({ skills }) => {
+  console.log("skills", skills);
   return (
     <div className="lg:min-h-[70vh] px-[5vw] py-[80px] flex flex-col items-center justify-center z-[4]">
       <h1
@@ -27,15 +28,15 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
       <div className="grid justify-center grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (
           <a
-            key={skill.link}
-            href={skill.link}
+            key={skill.link || skill.title}
+            href={skill.link || "#"}
             target="_blank"
             rel="noopener noreferrer"
             className="item flex flex-col items-center justify-around group"
           >
             <img
               className="w-[60px] h-[60px] transition duration-300 rounded-lg group-hover:scale-110"
-              src={skill.image.url}
+              src={skill.image.url || `https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${skill.title}.svg&w=200&h=200`}
               alt=""
             />
             <p className="text-center">{skill.title}</p>
