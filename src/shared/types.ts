@@ -12,7 +12,10 @@ export interface allDataType {
     description: string;
     demo: string;
     github: string;
-    technologies: string[];
+    technologies: {
+      id: string;
+      url: string;
+    }[];
     image: {
       url: string;
     };

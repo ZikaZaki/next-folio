@@ -15,7 +15,10 @@ export const GET_ALL_DATA = gql`
       description
       demo
       github
-      technologies
+      technologies {
+        id
+        url
+      }
       image {
         url(
           transformation: {

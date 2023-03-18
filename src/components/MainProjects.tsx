@@ -2,7 +2,6 @@ import { BiLinkExternal } from "react-icons/bi";
 import { FC } from "react";
 import { FaGithub } from "react-icons/fa";
 import { allDataType } from "../shared/types";
-import Image from "next/image";
 
 interface MainProjectsProps {
   projects: allDataType["projects"];
@@ -41,11 +40,11 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
             <div className="flex gap-[5px]">
               {project.technologies.map((tech) => (
                 <img
-                  key={tech}
+                  key={tech.id}
                   // width={30}
                   // height={30}
                   className="w-[30px] h-[30px]"
-                  src={tech}
+                  src={tech.url}
                   alt=""
                 />
               ))}
