@@ -13,11 +13,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="/rounded-avatar.png"
+          href="/z-logo.svg"
           type="image/x-icon"
         />
 
-        <title>{`NAPTheDev's Portfolio`}</title>
+        <title>{`ZikaZaki`}</title>
 
         <meta name="title" content="ZikaZaki's Portfolio" />
         <meta name="description" content="Zakariya Al-Khamisi's Portfolio" />

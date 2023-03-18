@@ -25,8 +25,10 @@ const Intro: FC = () => {
               transition={{ delay: index / 10, duration: 1 }}
               d={character}
               fill="none"
-              stroke="#FFF"
-              strokeWidth="4"
+              stroke={index === 0 ? "#E7403C": "#FFF"}
+              // stroke="#FFF"
+              strokeWidth={index === 0 ? 6 : 2}
+              // strokeWidth="4"
             ></m.path>
             <m.path
               // initial={{ fill: "#ffffff00" }}
