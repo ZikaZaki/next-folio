@@ -57,6 +57,7 @@ The **Next-Folio** is a lightweight, customizable single-page personal portfolio
 <details>
   <summary>Server</summary>
   <ul>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
     <li><a href="https://nodejs.org/en/">Node.js</a></li>
   </ul>
 </details>
