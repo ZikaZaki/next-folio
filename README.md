@@ -31,8 +31,6 @@
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 Next-Folio <a name="about-project"></a>
 
 The **Next-Folio** is a lightweight, customizable single-page personal portfolio website template. Built with Next.JS, TailwindCSS, & GraphQL.
