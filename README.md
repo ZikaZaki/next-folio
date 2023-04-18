@@ -72,9 +72,9 @@ The **Next-Folio** is a lightweight, customizable single-page personal portfolio
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68ea255b-ae38-4005-968b-6fbd0a8d676b/deploy-status)](https://main--serene-narwhal-01e496.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68ea255b-ae38-4005-968b-6fbd0a8d676b/deploy-status)](https://zikazaki.com/)
 
-[Live Demo Link](https://main--serene-narwhal-01e496.netlify.app/)
+[Live Demo Link](https://zikazaki.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
